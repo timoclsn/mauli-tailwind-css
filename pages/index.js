@@ -14,6 +14,9 @@ export default function Mauli() {
     <Container size="large">
       <Box inset={['small', 'medium', 'large']}>
         <Stack fullWidth>
+          <Heading as="h1" size="large">
+            Mauli TailwindCSS
+          </Heading>
           <Stack
             direction={['vertical', 'horizontal', 'vertical']}
             space={['small', 'medium', 'large']}
